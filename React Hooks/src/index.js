@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import UseState from './useState/useState';
+import UseEffect from './useEffect/useEffect'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <UseEffect />
+    <UseState />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

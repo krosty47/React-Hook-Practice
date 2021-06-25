@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+
+const hola = (nombre) => {
+  return <div>
+    <p>Hola estoy escribiendo en la pagina y mi nombre es {nombre}.</p>
+    <p>Podria tener mas TAGS aca, pero si no lo encierro todo en 1, me devuelve un error.</p>
+  </div>
+}
+
+export default function App() {
+
+  let nombre = "Christian"
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {hola(nombre)}
     </div>
   );
 }
 
-export default App;
