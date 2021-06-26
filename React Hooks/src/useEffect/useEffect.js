@@ -32,6 +32,7 @@ export default function UseEffect() {
 
     const [showHello, setShowHello] = useState(true);
 
+
     // useEffect to save the value of count, if you refresh the page, the value will be there
     useEffect(() => {
         localStorage.setItem('count', JSON.stringify(count))
