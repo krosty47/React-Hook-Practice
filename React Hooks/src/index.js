@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import UseState from './useState/useState';
 import UseEffect from './useEffect/useEffect'
+// import ItemCount from './desafio/itemCount';
+// import DesafioChris from './desafio/desafioChris';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <DesafioChris/> */}
+    {/* <ItemCount/> */}
+
     <UseEffect />
     <UseState />
     <App />
