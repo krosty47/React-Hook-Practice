@@ -6,9 +6,11 @@ import Renders from './renders';
 
 //--------------------------useRef()--------------------------//
 
+// We can store a value at useRef and then we can access with .current
 // When we want to get refference of some react component and use it in the application and maybe we don t want to render the page.
 // We can use it to count the times the component is render.
 // We can focus()
+// We can handle some errors
 
 
 export default function UseRef() {

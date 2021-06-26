@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 // import UseState from './useState/useState';
 // import UseEffect from './useEffect/useEffect'
+// import UseRef from './useRef/useRef';
+import UseCallback from './useCallback/useCallback';
 import reportWebVitals from './reportWebVitals';
-import UseRef from './useRef/useRef';
 
 // import ItemCount from './desafio/itemCount';
 // import DesafioChris from './desafio/desafioChris';
@@ -13,12 +14,13 @@ import UseRef from './useRef/useRef';
 
 ReactDOM.render(
   <React.StrictMode>
+    <UseCallback />
     {/* <DesafioChris/> */}
     {/* <ItemCount/> */}
-    <UseRef />
+    {/* <UseRef /> */}
     {/* <UseEffect /> */}
     {/* <UseState /> */}
-    <App />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
