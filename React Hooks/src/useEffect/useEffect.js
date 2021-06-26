@@ -26,11 +26,16 @@ export default function UseEffect() {
     //     }
     // },[])
 
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(() => JSON.parse(localStorage.getItem('count')));
 
     const { data, loading } = UseFetch(`http://numbersapi.com/${count}/trivia`)
 
     const [showHello, setShowHello] = useState(true);
+
+    // useEffect to save the value of count, if you refresh the page, the value will be there
+    useEffect(() => {
+        localStorage.setItem('count', JSON.stringify(count))
+    }, [count])
 
     return (
         <div>
