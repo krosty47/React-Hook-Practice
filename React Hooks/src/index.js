@@ -7,7 +7,9 @@ import App from './App';
 // import UseRef from './useRef/useRef';
 // import UseCallback from './useCallback/useCallback';
 // import UseMemo from './useMemo/useMemo';
-import UseReducer from './useReducer/useReducer';
+// import UseReducer from './useReducer/useReducer';
+import AppContext from './useContext/AppContext';
+
 import reportWebVitals from './reportWebVitals';
 
 // import ItemCount from './desafio/itemCount';
@@ -16,7 +18,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseReducer />
+    <AppContext />
+    {/* <UseReducer /> */}
     {/* <UseMemo /> */}
     {/* <UseCallback /> */}
     {/* <DesafioChris/> */}
