@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 
-export default function UseFetchError(url) {
+export const useFetch1 = (url) => {
 
     const isCurrent = useRef(true);
 

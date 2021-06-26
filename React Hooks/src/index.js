@@ -5,7 +5,8 @@ import App from './App';
 // import UseState from './useState/useState';
 // import UseEffect from './useEffect/useEffect'
 // import UseRef from './useRef/useRef';
-import UseCallback from './useCallback/useCallback';
+// import UseCallback from './useCallback/useCallback';
+// import UseMemo from './useMemo/useMemo';
 import reportWebVitals from './reportWebVitals';
 
 // import ItemCount from './desafio/itemCount';
@@ -14,7 +15,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseCallback />
+    {/* <UseMemo /> */}
+    {/* <UseCallback /> */}
     {/* <DesafioChris/> */}
     {/* <ItemCount/> */}
     {/* <UseRef /> */}
